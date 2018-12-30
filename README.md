@@ -1,4 +1,9 @@
 # go-oled-i2c
+
+[![Go Report Card](https://goreportcard.com/badge/github.com/sachingorade/go-oled-i2c)](https://goreportcard.com/report/github.com/sachingorade/go-oled-i2c)
+[![GoDoc](https://godoc.org/github.com/sachingorade/go-oled-i2c?status.svg)](https://godoc.org/github.com/sachingorade/go-oled-i2c)
+[![MIT License](http://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+
 Go implementation for .96 OLED I2C manipulation
 
 This is a very basic Go implementation for 0.96" Oled i2c display manipulation.
