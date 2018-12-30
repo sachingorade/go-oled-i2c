@@ -43,3 +43,6 @@ func main() {
 	oled.Write("Hello from go!")
 }
 ```
+
+## License
+Licensed under MIT :)
