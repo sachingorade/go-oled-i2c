@@ -9,7 +9,7 @@ for this little beast's capability). So I decided to build a local file server w
 but I also have various 0.96" Oled display with me so decided to add for this file server.
 
 I tried initializing this Oled with Go's Periph package but it was not working. So while searching for other i2c libraries
-for Go, I found go-i2c and it was working.. TADA!
+for Go, I found [go-i2c](https://github.com/d2r2/go-i2c/) and it was working.. TADA!
 
 So I wrote this wrapper around this library for 0.96" Oled display.
 
