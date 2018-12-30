@@ -146,7 +146,7 @@ type Oled struct {
 // BeginOled Creates a new Oled reference
 func BeginOled() (*Oled, error) {
 	res := &Oled{}
-	err := res.Init()
+	err := res.init()
 	if err != nil {
 		return nil, err
 	}
@@ -154,7 +154,7 @@ func BeginOled() (*Oled, error) {
 }
 
 // Init intiializes oled display
-func (v *Oled) Init() error {
+func (v *Oled) init() error {
 	_i2c, err := i2c.NewI2C(oledDefaultI2cAddress, defaultI2cBus)
 	if err != nil {
 		return err
